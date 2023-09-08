@@ -49,8 +49,7 @@ def check_1(chr):
         if warning == 0:
             chances -= 1
         else:
-            if chr in used_letter:
-                warning -= 1
+            warning -= 1
         return False
 
 def check_2(chr, secret_word):
